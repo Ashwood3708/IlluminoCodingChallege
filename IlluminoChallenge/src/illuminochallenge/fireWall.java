@@ -10,7 +10,7 @@ import java.util.*;
  * @author Abdul
  */
 public interface fireWall {
-    List<ArrayList<String[]>> lists= Arrays.asList();
+    List<ArrayList<String[]>> lists = new ArrayList();
      void fireWall(String path);
      boolean accept_packet(String dir, String protocol, int port, String ip);  
 }

@@ -13,6 +13,6 @@ public class main extends IlluminoChallenge{
     public static void main(String[] args) {
     IlluminoChallenge r = new IlluminoChallenge();
     r.fireWall("test.txt");
-//    System.out.println(r.accept_packet("inbound","tcp",80,"192.168.1.2"));
+    System.out.println(r.accept_packet("inbound","tcp",80,"192.168.1.2"));
     }
 }
